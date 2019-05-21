@@ -1,0 +1,20 @@
+{
+  "name": "registros-app",
+  "version": "1.0.0",
+  "description": "Esta aplicacion apoyara al registro de eventos scouts",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luis Manuel Torres Trevino",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.0",
+    "express-fileupload": "^1.1.4",
+    "mongoose": "^5.5.10"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
